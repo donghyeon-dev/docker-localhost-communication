@@ -1,0 +1,21 @@
+GET localhost:8180/alpha/
+###
+GET localhost:8081/beta/
+###
+GET localhost:8182/charlie/
+
+
+###
+GET localhost:8180/alpha/get-beta
+###
+GET localhost:8180/alpha/get-charlie
+
+###
+GET localhost:8081/beta/get-alpha
+###
+GET localhost:8081/beta/get-charlie
+
+###
+GET localhost:8182/charlie/get-alpha
+###
+GET localhost:8182/charlie/get-beta

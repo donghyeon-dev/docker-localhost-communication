@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/alpha.main.iml" filepath="$PROJECT_DIR$/.idea/modules/alpha.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/beta.main.iml" filepath="$PROJECT_DIR$/.idea/modules/beta.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/charlie.main.iml" filepath="$PROJECT_DIR$/.idea/modules/charlie.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/docker-localhost-communication.iml" filepath="$PROJECT_DIR$/.idea/docker-localhost-communication.iml" />
+    </modules>
+  </component>
+</project>

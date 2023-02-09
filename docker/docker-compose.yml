@@ -1,0 +1,30 @@
+version: 2
+
+services:
+  alpha:
+    environment:
+      TZ: Asia/Seoul
+    build:
+      context: /Users/autocat/dev/Personal/docker/docker-localhost-communication/alpha
+      dockerfile: /Users/autocat/dev/Personal/docker/docker-localhost-communication/alpha/Dockerfile
+    container_name: alpha-service
+    ports:
+      - 8180:8180
+  beta:
+    environment:
+      TZ: Asia/Seoul
+    build:
+      context: /Users/autocat/dev/Personal/docker/docker-localhost-communication/beta
+      dockerfile: /Users/autocat/dev/Personal/docker/docker-localhost-communication/beta/Dockerfile
+    container_name: beta-service
+    ports:
+      - 8081:8081
+  charlie:
+    environment:
+      TZ: Asia/Seoul
+    build:
+      context: /Users/autocat/dev/Personal/docker/docker-localhost-communication/charlie
+      dockerfile: /Users/autocat/dev/Personal/docker/docker-localhost-communication/charlie/Dockerfile
+    container_name: charlie-service
+    ports:
+      - 8182:8182
