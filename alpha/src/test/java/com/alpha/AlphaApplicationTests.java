@@ -10,6 +10,7 @@ class AlphaApplicationTests {
 
     @Test
     void contextLoads() {
+        //
     }
 
 }
